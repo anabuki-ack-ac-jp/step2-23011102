@@ -29,7 +29,7 @@ public class Step2Controller {
     // 「/step2/evening?name=○○」をURLの最後に指定した時に「○○さん、こんばんは!」と返すよう処理を追加してください。
     // ↓↓↓↓ここに処理を追加しましょう。↓↓↓↓
     model.addAttribute("greeting", name + "さん、こんばんは!");
-    // ↑↑↑↑ここに処理を追加しましょう。"↑↑↑↑
+    // ↑↑↑↑ここに処理を追加しましょう。"↑↑↑
     return "step2/greeting";
   }
 }
